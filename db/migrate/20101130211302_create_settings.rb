@@ -1,4 +1,4 @@
-class CreateBlogs < ActiveRecord::Migration
+class CreateSettings < ActiveRecord::Migration
   def self.up
     create_table :blogs do |t|
       t.string :title
